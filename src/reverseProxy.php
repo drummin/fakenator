@@ -84,8 +84,8 @@ if (isset($_GET['regenerate']) & $_GET['regenerate'] == 'true') {
 // helper functions
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ //
 
-/////// ADD MYKEY TO FUNCTION
-////// WE NED THIS TO CREATE THE REGENERATION URL FOR THE BUTTON
+////// ADD MYKEY TO FUNCTION
+////// WE NEED THIS TO CREATE THE REGENERATION URL FOR THE BUTTON
 
 function respondWith($header, $payload, $myKey) {
 	// break up header into lines
