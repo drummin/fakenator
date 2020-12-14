@@ -1,8 +1,5 @@
 <?php
 
-// echo '<pre>'; print_r($_SERVER); echo '</pre>';
-
-
 // connect to DB
 $dbConnection =  new mysqli(getenv('DBHOST'), getenv('DBUSR'), getenv('DBPASS'), getenv('DBSCHEMA'), getenv('DBPORT'));
 // if we cant connect, respond with server error
